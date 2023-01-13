@@ -1,0 +1,54 @@
+/* #### Formatação Corpo do Projeto #### */
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/* ####  Fim da Formatação Corpo do Projeto #### */
+
+
+/* #### Header - Início #### */
+
+#header{
+    background-color: #255ce9;
+    padding: 0px;
+    text-align: center;
+}
+
+#logo{
+    padding: 10px;
+    
+}
+
+#menu{
+    padding: 10px;
+}
+
+
+
+.tamanho-logo{
+    width: 400px;
+    align-items: left;
+}
+
+/* #### Header - Fim #### */
+
+/* #### Formatação Menú - Início #### */
+
+#menu{
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #3591f3;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+a:hover{
+    color: rgb(0, 0, 0)
+}
