@@ -1,4 +1,4 @@
-/* #### Formatação Corpo do Projeto #### */
+/* #### Formatação Corpo do Projeto - Início #### */
 
 body{
     font-size: 1em;
@@ -6,13 +6,13 @@ body{
     background-color: #e6e6e6;
 }
 
-/* ####  Fim da Formatação Corpo do Projeto #### */
+/* #### Formatação Corpo do Projeto - Fim #### */
 
 
 /* #### Header - Início #### */
 
 #header{
-    background-color: #255ce9;
+    background: #255ce9;
     padding: 0px;
     text-align: center;
 }
@@ -22,11 +22,6 @@ body{
     
 }
 
-#menu{
-    padding: 10px;
-}
-
-
 
 .tamanho-logo{
     width: 400px;
@@ -35,20 +30,113 @@ body{
 
 /* #### Header - Fim #### */
 
-/* #### Formatação Menú - Início #### */
+/* #### Formatação Menu - Início #### */
 
 #menu{
-    padding: 10px;
+    padding: 15px;
     text-align: center;
-}
+    }
 
 a {
     color: #3591f3;
     text-decoration: none;
     font-weight: bold;
-    padding: 5px;
+    
+   }
+
+a:link{
+    padding: 10px;
 }
 
 a:hover{
     color: rgb(0, 0, 0)
+       
 }
+
+/* #### Formatação Menu - Fim #### */
+
+/* #### Área Principal - Início  #### */
+
+#principal{
+    width: 920px;
+    padding: 20px;
+    margin: 0 auto ;
+    padding: 15px;
+}
+
+#conteudo{
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.img{
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+h2{
+    color: #3591f3;
+}
+
+.preto{
+    color: black;
+}
+
+/* #### Área Principal - Fim #### */
+
+
+/* #### Footer - Início #### */
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #e6e6e6;
+}
+
+/* #### Footer - Fim #### */
+
+
+/* #### CARROSSEL - INICIO #### */
+ 
+.slider{
+    overflow: hidden;
+
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+
+/* #### CARROSSEL - INICIO #### */
