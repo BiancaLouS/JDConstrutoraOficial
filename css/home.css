@@ -1,3 +1,4 @@
+
 /* #### Formatação Corpo do Projeto - Início #### */
 
 body{
@@ -15,6 +16,7 @@ body{
     background: #255ce9;
     padding: 0px;
     text-align: center;
+    width: 100%;
 }
 
 #logo{
@@ -62,7 +64,7 @@ a:hover{
     width: 920px;
     padding: 20px;
     margin: 0 auto ;
-    padding: 15px;
+    
 }
 
 #conteudo{
