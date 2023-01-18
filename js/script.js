@@ -5,7 +5,7 @@ $(function(){
 
 	var texto = $(".ativo").attr("alt");
 	$('#slide').prepend("<p>"+texto+"</p>");
-	setInterval(slide,5000);
+	setInterval(slide,3000);
 
 	function slide(){
 
@@ -27,7 +27,7 @@ $(function(){
 			$('#slide p')
 			.hide()
 			.html(texto)
-			.delay(500)
+			.delay(300)
 			.fadeIn();
 	}
 });
