@@ -40,7 +40,7 @@ $(function(){
 
 	var texto = $(".ativo2").attr("alt");
 	$('#slide2').prepend("<p>"+texto+"</p>");
-	setInterval(slide,5000);
+	setInterval(slide,3000);
 
 	function slide(){
 
@@ -62,7 +62,7 @@ $(function(){
 			$('#slide2 p')
 			.hide()
 			.html(texto)
-			.delay(500)
+			.delay(300)
 			.fadeIn();
 	}
 });
