@@ -160,4 +160,10 @@ hr{
     transform: translateX(-100%);
 }
 
-/* #### CARROSSEL - INICIO #### */
+/* #### CARROSSEL - FIM #### */
+
+/* #### RESPONSIVO - INICIO #### */
+
+@media screen and (max-width: 1000px) {
+    
+}
